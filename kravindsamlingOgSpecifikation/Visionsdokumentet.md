@@ -7,10 +7,15 @@ Produktet henvender sig til en parkeringsservice virksomhed, som ønsker en nemm
 
 ### Interessentanalyse
 
-##### Bruger
+#### Bruger
 - **Parkeringsvagter** ønsker en lettere og mere effektiv måde at uddele parkeringsafgifter på.
 
 - **Kontorpersonale** ønsker at kunne følge op på at udsendte parkeringsafgifter bliver betalt, samt at kunne reagere korrekt og rettidigt på eventuelle udeståender.
+
+#### Øvrige interessenter
+- **Danske Bank** skal integrere op imod systemet og ønsker
+
+
 
 ### Featurelist
 
