@@ -20,14 +20,18 @@
 - P-vagten aktiverer synkronisering af bøder
 - De registrerede bøder bliver overført til det fælles system
 - De vedhæftede billeder bliver overført til det fælles system
+- Systemet henter personinformation fra motorregistret ud fra registreringsnummeret
+- Systemet gemmer personinformationer og sørger for kryptering af disse for at overholde GDPR
+- Bøden oprettes i det fælles system
 
 ### UC03 Udskriv bøder
 
-- Systemet henter personinformation fra motorregistret ud fra registreringsnummeret
-- Systemet gemmer personinformationer og sørger for kryptering af disse for at overholde GDPR
-- Systemet udskriver bødeforlæg på baggrund personinformationer og det som P-vagten har indsamlet
+- Systemet henter automatisk alle nyoprettede bøder på et defineret tidspunkt
+- Systemet validerer at al nødvendig information er tilstede
+- Bøder med manglende information sættes på fejlliste til manuel opfølgning
+- Systemet udskriver valide bødeforlæg på baggrund personinformationer og det som P-vagten har indsamlet
 
-### UC04  Handl betalingsinformationer
+### UC04  Håndter betalingsinformationer
 
 - Systemet modtager betalingsinformationer fra Danske Bank
 -	Systemet gemmer informationerne lokalt
@@ -38,7 +42,7 @@
 - Systemet opdaterer alle ubetalte bøder hvis deres indbetalingsdato er overskredet som at der skal udsendes rykker
 - Systemet opdaterer alle ubetalte rykkere hvis deres indbetalingsdato er overskredet som at de skal overdrages til inkasso
 
-### UC05 Manage bøde status
+### UC05 Håndter bøde status
 
 - Kontormedarbejderen åbner en oversigt over status på alle bøder
 - Systemet viser en opdeling af antallet af bøder i de forskellige statusser (Betalt, ubetalt, rykket eller inkasso)
